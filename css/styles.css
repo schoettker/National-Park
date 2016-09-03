@@ -25,7 +25,21 @@
   border: 1px red solid;
 }
 .secondary {
-  min-height: 50%;
-  margin: 10px 0;
+  height: 50%;
+  margin: 10px 0 0;
   border: 1px blue solid;
+}
+/*Media Queries*/
+@media screen and (min-width: 612px) {
+  .secondary {
+    width: 47.5%;
+    height: 100%;
+    float: left;
+  }
+  #leftcol {
+    margin-right: 2.5%;
+  }
+  #rightcol {
+    margin-left: 2.5%;
+  }
 }
