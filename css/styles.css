@@ -6,7 +6,26 @@
 }
 
 .columns {
-  min-height: 100px;
+  min-height: 50px;
 }
 
 /* End for testing */
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 98%;
+  margin: 0 auto;
+}
+.main {
+  height: 50vh;
+}
+.wrap {
+  height: 50vh;
+  border: 1px red solid;
+}
+.secondary {
+  min-height: 50%;
+  margin: 10px 0;
+  border: 1px blue solid;
+}
