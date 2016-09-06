@@ -6,6 +6,8 @@
 }*/
 body {
   background-color: mintcream;
+  font-family: "Roboto Slab", serif;
+  color: rgba(0, 0, 0, 0.8);
 }
 .columns {
   min-height: 50px;
