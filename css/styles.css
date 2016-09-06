@@ -9,7 +9,7 @@ body {
 }
 .columns {
   min-height: 50px;
-  background-color: rgba(0, 0, 0, 0.8)
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* End for testing */
@@ -21,7 +21,10 @@ body {
   margin: 0 auto;
 }
 .main {
-  height: 50vh;
+  height: 50%;
+  background-image: url("/assets/yosemite.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .wrap {
   height: 50vh;
@@ -32,6 +35,12 @@ body {
 }
 #extra {
   display: none;
+}
+#leftcol {
+  background-color: #ACD6B1;
+}
+#rightcol {
+  background-color: #2B999A;
 }
 /*Media Queries*/
 @media screen and (min-width: 612px) {
